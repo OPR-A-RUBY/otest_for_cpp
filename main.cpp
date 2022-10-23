@@ -37,5 +37,11 @@ int main() {
     }
     
     
+    int j = 100; 			// 100 - условие после тела цикла
+    do {
+       cout << j << endl;
+    } while (j < 10);
+    
+        
     return 0;
 }
