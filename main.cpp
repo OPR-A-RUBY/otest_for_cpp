@@ -38,6 +38,26 @@ int main() {
     // Два условия в связке "ИЛИ" - оодно из двух должны быть 'true'.
     if (age > 18 || isHappy) 
        cout << "Wow! Your age is bigger than 18" << endl; 
-       
+    
+    int num = 12;
+    switch (num) {
+	case 1:
+	    cout << "Num is 1" << endl;
+	    break;
+	case 2:
+	    cout << "Num is 2" << endl;
+	    break;
+	case 10:
+	    cout << "Num is 10" << endl;
+	    break;
+	case 12:
+	    cout << "Num is 12" << endl;
+	    break;    
+	case 17:
+	    cout << "Num is 17" << endl;
+	    break;
+	default:
+	    cout << "Num is unknown" << endl;
+    }   
     return 0;
 }
