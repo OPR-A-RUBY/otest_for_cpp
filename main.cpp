@@ -10,7 +10,15 @@ int main() {
     
     var_type(); // Переменые и костанты
 
-
+    int num_1, num_2, result;
+    
+    cout << "Enter num_1: ";
+    cin >> num_1;
+    cout << "Enter num_2: ";
+    cin >> num_2;
+    
+    result = num_1 + num_2;
+    cout << "Result = " << result << endl;
     
     return 0;
 }
