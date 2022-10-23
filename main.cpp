@@ -6,6 +6,9 @@ using namespace std;
 #include "algebras.cpp"
 #include "if_then.cpp"
 #include "arrays.cpp"
+#include "loops.cpp"
+#include "strings.cpp"
+
 
 int main() {
     
@@ -19,34 +22,13 @@ int main() {
     
     // arrays();   // Массивы
     
-    cout << "_____________ LOOPS ______________________________________" << endl;
+    loops();       // Циклы
     
-    for (int i = 0; i < 10; i++) {  // 1, 2, 3, 4, ... 9 
-        cout << i << endl; 
-    }
+    strings();     // Строки
     
-    
-    for (float i = 100; i >= 10; i /= 2) {  // 100, 50, 25, 12.5 
-        cout << i << endl; 
-    }
-    
-    int i = 0;				// 0, 2, 4, 6, 8, 10
-    while (i <= 10) {
-	cout << i << endl;
-	i += 2;
-    }
+    cout << "_____________ STRING ______________________________________" << endl;
     
     
-    int j = 100; 			// 100 - условие после тела цикла
-    do {
-       cout << j << endl;
-    } while (j < 10);
     
-    
-    char arrch[3] = {'s', 'r', 'c'};
-    for (int i = 0; i <3; i++){
-      cout << arrch[i] << endl;
-      }
-        
     return 0;
 }
