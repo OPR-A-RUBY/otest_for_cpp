@@ -13,6 +13,7 @@ int main() {
 
     algebra();  // Математические операции над перемнными
     
+    bool isHappy = true;
     int age;
     cin >> age;
     // (age < 18)  (age <= 18)  (age == 18)
@@ -22,9 +23,10 @@ int main() {
     } else if (age == 18) {
        cout << "Your age is equal 18" << endl;    
     } else {
+       if (isHappy == true)
+           cout << "You are Happy" << endl; 
        cout << "Your age is less than 18" << endl; 
     }
-    
     
     return 0;
 }
