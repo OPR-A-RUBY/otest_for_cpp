@@ -9,62 +9,30 @@ using namespace std;
 #include "loops.cpp"
 #include "strings.cpp"
 #include "functions.cpp"
+#include "classes.cpp"
 
-class Car {
-  
-private:
-  int height;
-  float speed;
-  
-public:
-  Car () {}  				// Конструктор без параметров
-  
-  Car (int height, float speed) { 	// Конструктор с параметрами
-    this->height = height;
-    this->speed = speed;
-  }
-  
-  void setValues (int height, float speed) {
-    this->height = height;
-    this->speed = speed;  
-  }
-  
-  void print () {
-    cout << this->height << " - " << this->speed << endl;
-  }
-  
-  ~Car () {
-    cout << "All is okay!" << endl;
-  }
-  
-};
   
 int main() {
     
     cout << "Hello World!" << endl;
     
-    // var_type();   // Переменые и костанты
+    var_type();   // Переменые и костанты
 
-    // algebra();    // Математические операции над перемнными
+    algebra();    // Математические операции над перемнными
     
-    // if_then();    // Условия и ветвления 
+    if_then();    // Условия и ветвления 
     
-    // arrays();     // Массивы
+    arrays();     // Массивы
     
-    // loops();      // Циклы
+    loops();      // Циклы
     
-    // strings();     // Строки
+    strings();     // Строки
     
-    // function();    // Функции
+    function();    // Функции
     
-    cout << "_____________ CLASS ______________________________________" << endl;
+    classes();       // Классы
     
-    Car shkoda(1100, 234.4);
-    shkoda.print ();
-    
-    Car audi;
-    audi.setValues(2000, 314.7);
-    audi.print ();
+    cout << "_____________ END ______________________________________" << endl;
     
     return 0;
 }
