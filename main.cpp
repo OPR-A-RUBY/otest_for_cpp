@@ -35,5 +35,9 @@ int main() {
     if (!isHappy)
         cout << "You are not Happy!" << endl; 
 	
+    // Два условия в связке "ИЛИ" - оодно из двух должны быть 'true'.
+    if (age > 18 || isHappy) 
+       cout << "Wow! Your age is bigger than 18" << endl; 
+       
     return 0;
 }
