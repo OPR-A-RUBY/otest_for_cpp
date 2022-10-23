@@ -13,12 +13,15 @@ using namespace std;
 class Car {
 private:
   int height;
-protected:
   float speed;
 public:
-  void setValues () {
-       
-  } 
+  void setValues (int height, float speed) {
+    this->height = height;
+    this->speed = speed;  
+  }
+  void print () {
+    cout << this->height << " - " << this->speed << endl;
+  }
 };
   
 int main() {
@@ -39,9 +42,15 @@ int main() {
     
     // function();    // Функции
     
-    cout << "_____________ STRING ______________________________________" << endl;
+    cout << "_____________ CLASS ______________________________________" << endl;
     
+    Car shkoda;
+    shkoda.setValues(1100, 234.4);
+    shkoda.print ();
     
+    Car audi;
+    audi.setValues(2000, 314.7);
+    audi.print ();
     
     return 0;
 }
