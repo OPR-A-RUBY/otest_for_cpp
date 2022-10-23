@@ -58,6 +58,12 @@ int main() {
 	    break;
 	default:
 	    cout << "Num is unknown" << endl;
-    }   
+    } 
+    
+    bool isWork = 2 == 3 ? true : false;
+    int number = num == 17 ? 10 : 23;
+    cout << "isWork = " << isWork << endl; 
+    cout << "number = " << number << endl; 
+      
     return 0;
 }
