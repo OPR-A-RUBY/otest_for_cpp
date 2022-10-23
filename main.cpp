@@ -20,5 +20,13 @@ int main() {
     cout << "long int = " << num_1 << endl;
     cout << "short int = " << num_2 << endl;
     
+    float favNum = 3.72f;
+    float favNum1 = .72;
+    cout << "float = " << favNum << endl;
+    cout << "float = " << favNum1 << endl;
+    
+    double test = 12354885.12458759548368001;
+    cout << "double = " << test << endl;
+    
     return 0;
 }
