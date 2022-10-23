@@ -10,6 +10,16 @@ using namespace std;
 #include "strings.cpp"
 #include "functions.cpp"
 
+class Car {
+private:
+  int height;
+protected:
+  float speed;
+public:
+  void setValues () {
+       
+  } 
+};
   
 int main() {
     
