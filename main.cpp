@@ -33,6 +33,10 @@ public:
     cout << this->height << " - " << this->speed << endl;
   }
   
+  ~Car () {
+    cout << "All is okay!" << endl;
+  }
+  
 };
   
 int main() {
