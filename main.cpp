@@ -9,6 +9,9 @@ using namespace std;
 #include "loops.cpp"
 #include "strings.cpp"
 
+void print (string word) {
+  cout << word << endl;
+  }
 
 int main() {
     
@@ -22,13 +25,14 @@ int main() {
     
     // arrays();   // Массивы
     
-    loops();       // Циклы
+    // loops();       // Циклы
     
     strings();     // Строки
     
     cout << "_____________ STRING ______________________________________" << endl;
     
-    
+    string hi = "Hello, big World!";
+    print (hi);
     
     return 0;
 }
