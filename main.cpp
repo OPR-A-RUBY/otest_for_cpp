@@ -11,7 +11,7 @@ int main() {
     
     cout << "Hello World!" << endl;
     
-    var_type(); // Переменые и костанты
+    // var_type(); // Переменые и костанты
 
     // algebra();  // Математические операции над перемнными
     
@@ -25,7 +25,7 @@ int main() {
         cout << i << endl; 
     }
     
-     
+    
     for (float i = 100; i >= 10; i /= 2) {  // 100, 50, 25, 12.5 
         cout << i << endl; 
     }
@@ -42,6 +42,11 @@ int main() {
        cout << j << endl;
     } while (j < 10);
     
+    
+    char arrch[3] = {'s', 'r', 'c'};
+    for (int i = 0; i <3; i++){
+      cout << arrch[i] << endl;
+      }
         
     return 0;
 }
