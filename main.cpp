@@ -30,6 +30,12 @@ int main() {
         cout << i << endl; 
     }
     
+    int i = 0;				// 0, 2, 4, 6, 8, 10
+    while (i <= 10) {
+	cout << i << endl;
+	i += 2;
+    }
+    
     
     return 0;
 }
