@@ -28,5 +28,8 @@ int main() {
     double test = 12354885.12458759548368001;
     cout << "double = " << test << endl;
     
+    const float p = 3.141593;
+    cout << "const = " << p << endl;
+    
     return 0;
 }
