@@ -28,5 +28,11 @@ int main() {
        cout << "Your age is less than 18" << endl; 
     }
     
+    if (isHappy)
+        cout << "You are Happy!" << endl; 
+	
+    if (!isHappy)
+        cout << "You are not Happy!" << endl; 
+	
     return 0;
 }
