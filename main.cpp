@@ -21,9 +21,15 @@ int main() {
     
     cout << "_____________ LOOPS ______________________________________" << endl;
     
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {  // 1, 2, 3, 4, ... 9 
         cout << i << endl; 
     }
+    
+     
+    for (float i = 100; i >= 10; i /= 2) {  // 100, 50, 25, 12.5 
+        cout << i << endl; 
+    }
+    
     
     return 0;
 }
