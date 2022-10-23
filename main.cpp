@@ -16,7 +16,22 @@ int main() {
     
     if_then();  // Условия и ветвления 
     
-   
+    
+    cout << "_____________ ARRAY ________________________________________" << endl;
+    
+    int array_i[4];
+    array_i[0] = 23;
+    
+    cout << array_i[0] << endl;
+    
+    
+    
+    float array[5];
+    array[0] = 12.45;
+    
+    cout << array[0] << endl;
+    
+    
       
     return 0;
 }
