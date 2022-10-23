@@ -1,5 +1,7 @@
 int var_type() {
     
+    cout << "_____________ VARIABLE TYPES ________________________________" << endl;
+    
     char sym = 'A';
     cout << "char = " << sym << endl;
     
