@@ -18,7 +18,8 @@ int main() {
     cin >> age;
     // (age < 18)  (age <= 18)  (age == 18)
     // (age > 18)  (age >= 18)  (age != 18)
-    if (age > 18) {
+    // Два условия в связке "И" - оба должны быть 'true'.
+    if (age > 18 && isHappy) {
        cout << "Your age is bigger than 18" << endl; 
     } else if (age == 18) {
        cout << "Your age is equal 18" << endl;    
