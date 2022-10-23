@@ -10,8 +10,8 @@ int main() {
     char sym = 'A';
     cout << sym << endl;
     
-    
-    
+    bool isWork = true;
+    cout << isWork << endl;
     
     return 0;
 }
