@@ -13,5 +13,14 @@ int main() {
 
     algebra();  // Математические операции над перемнными
     
+    int age;
+    cin >> age;
+    // (age < 18)  (age <= 18)  (age == 18)
+    // (age > 18)  (age >= 18)  (age != 18)
+    if (age > 18) {
+       cout << "Your age is bigger than 18" << endl; 
+    }
+    
+    
     return 0;
 }
